@@ -28,9 +28,9 @@ public abstract class Essence {
         System.out.println(getName() + action + state);
     }
 
-    public void angry(String state, String byObject) {
-        System.out.println(getName() + state + byObject);
-    }
+   // public void angry(String state, String byObject) {
+     //   System.out.println(getName() + state + byObject);
+   // }
 
     public void go(String toObject) {
         System.out.println();

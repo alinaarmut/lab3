@@ -18,6 +18,7 @@ public class Shofer extends Essence implements Fixxed, Looking, Started{
         return obj.hashCode() == this.hashCode();
     }
 
+
     @Override
     public String toString() {
         return "Имя: " + getName();

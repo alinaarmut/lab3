@@ -15,11 +15,14 @@ public class Story {
         Kisonka kisonka = new Kisonka("Кисонька");
         Lastochka lastochka = new Lastochka("Ласточка");
         kisonka.dovolnya("была довольна");
+        //Essence essence = new Bublic("Шпуньтик");- принцип работы лисков
         lastochka.dovolnya("была довольна");
         kisonka.laughin("смеялась", "злорадно");
         shpuntic.missed("на возвращение", "пропала");
         vintic.missed("на возвращение", "пропала");
         Mashin mashin = new Mashin("Машина");
+        String s = mashin.toString();
+        System.out.println(s);
         mashin.seemed("показалась", "улицы");
         Mashin.Kolesa kolesa = mashin.new Kolesa();
         kolesa.auto("Колеса", "прокатились", " улице");
@@ -66,6 +69,8 @@ public class Story {
             }
         };
         sineglazka2.came("Синеглазка", "пришла и рассказала");
+
+
 
 
     }
